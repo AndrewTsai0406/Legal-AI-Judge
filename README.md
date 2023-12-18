@@ -11,7 +11,7 @@ Starting from a Taiwanese legal judgement dataset that targets specifically **dr
 ![Alt text](./law_prediction_gradio_space/gradio.png)
 The predict function is deployed on [Hugginface Space](https://huggingface.co/spaces/AndrewTsai0406/law_prediction_gradio) with Gradio. This end point will remain available until the end of the evaluation period.
 
-## ***[Demo: Go to Gradio Interface](https://huggingface.co/spaces/AndrewTsai0406/law_prediction_gradio)***
+## ***[Demo: Click to go to the Gradio interface](https://huggingface.co/spaces/AndrewTsai0406/law_prediction_gradio)***
 
 ## Running the project ⚙️
 ### Prepare the repository 

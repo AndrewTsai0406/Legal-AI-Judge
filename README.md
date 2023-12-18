@@ -1,4 +1,6 @@
 # A Legal Decision Support System 
+This repository was created as part of the [Data-zoomcamp ML engineering course](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master) by Andrew Tsai. This project has been submitted as the final capstone for the course.
+
 ## Problem scope 📝
 In today's complex and dynamic legal landscape, the integration of Artificial Intelligence (AI) into legal assistance services has become increasingly imperative. The multifaceted nature of legal matters often poses challenges for individuals seeking clarity on applicable laws and potential sentencing outcomes. The advent of AI legal assistance, capable of predicting both **[applicable laws](https://www.legislate.tech/glossary/applicable-law)** and **potential [imprisonmen](https://dictionary.cambridge.org/dictionary/english/imprisonment)**, could addresses these challenges with unparalleled efficiency and accuracy.
 

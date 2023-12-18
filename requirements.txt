@@ -1,0 +1,16 @@
+bertopic
+ckip-transformers
+cn2an
+flask
+fastapi
+gradio
+gunicorn
+uvicorn
+ipykernel
+lightning-flash[text]
+langchain
+nbformat
+pandas
+pyarrow
+seaborn
+spacy

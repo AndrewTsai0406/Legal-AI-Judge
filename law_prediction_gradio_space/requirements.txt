@@ -1,0 +1,11 @@
+cn2an
+flask
+fastapi
+gradio
+gunicorn
+uvicorn
+ipykernel
+lightning-flash[text]
+nbformat
+pandas
+pyarrow

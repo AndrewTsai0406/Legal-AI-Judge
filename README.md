@@ -57,7 +57,7 @@ The final models will be saved in the `./models` directory.
 -  **Exploratory Data Analysis**  
     The characteristics of the judgement that are used to predict the judgement are explored in the exploratory data analysis (EDA) part of the notebook. I ran one notebook to do the analysis. A copy of it is in the [repository](notebooks/EDA.ipynb).
 - **Training**
-    [train.py](./scripts/train.py) runs the training for the final models. 
+    The logic for training the model is exported to a separate script in [train.py](./scripts/train.py), which runs the training for the final models. 
 - **Deployment**  
     ***Predict***: Predictions can be ran with a [Gunicorn local service](https://docs.gunicorn.org/en/stable/deploy.html) (the predict function can be found within [app.py](app-fastapi/app.py)).
 

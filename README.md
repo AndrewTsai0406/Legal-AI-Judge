@@ -1,9 +1,9 @@
 # A Legal Decision Support System 
 
 ## Problem scope 📝
-In today's complex and dynamic legal landscape, the integration of Artificial Intelligence (AI) into legal assistance services has become increasingly imperative. The multifaceted nature of legal matters often poses challenges for individuals seeking clarity on applicable laws and potential sentencing outcomes. The advent of AI legal assistance, capable of predicting both **applicable laws** and **potential imprisonment**, could addresses these challenges with unparalleled efficiency and accuracy.
+In today's complex and dynamic legal landscape, the integration of Artificial Intelligence (AI) into legal assistance services has become increasingly imperative. The multifaceted nature of legal matters often poses challenges for individuals seeking clarity on applicable laws and potential sentencing outcomes. The advent of AI legal assistance, capable of predicting both **[applicable laws](https://www.legislate.tech/glossary/applicable-law)** and **potential [imprisonmen](https://dictionary.cambridge.org/dictionary/english/imprisonment)**, could addresses these challenges with unparalleled efficiency and accuracy.
 
-Starting from the legal judgement dataset, which I crawled from the open sourced website and put on hugginface, the goal is to:
+Starting from a Taiwanese legal judgement dataset that targets specifically **drug-related crimes**, which I crawled from the open sourced website and put on hugginface, the goal is to have a model infer a judgment and:
 
 1. classify the legal articles that are violated by the defendant
 2. predict the length of the imprisonment

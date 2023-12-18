@@ -1,5 +1,4 @@
 # A Legal Decision Support System 
-
 ## Problem scope 📝
 In today's complex and dynamic legal landscape, the integration of Artificial Intelligence (AI) into legal assistance services has become increasingly imperative. The multifaceted nature of legal matters often poses challenges for individuals seeking clarity on applicable laws and potential sentencing outcomes. The advent of AI legal assistance, capable of predicting both **[applicable laws](https://www.legislate.tech/glossary/applicable-law)** and **potential [imprisonmen](https://dictionary.cambridge.org/dictionary/english/imprisonment)**, could addresses these challenges with unparalleled efficiency and accuracy.
 
@@ -67,5 +66,5 @@ The final models will be saved in the `./models` directory.
     *Example screenshot of the Gradio interface:*
     ![Alt text](./law_prediction_gradio_space/gradio.png)
     The predict function is also deployed on [Hugginface Space](https://huggingface.co/spaces/AndrewTsai0406/law_prediction_gradio) with Gradio. This end point will remain available until the end of the evaluation period.
-    
+
    => ***[Gradio Interface](https://huggingface.co/spaces/AndrewTsai0406/law_prediction_gradio)***

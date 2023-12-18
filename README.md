@@ -30,14 +30,14 @@ pip install -r requirements.txt
 ```
 
 ### Data preparation
-The dataset can be downloaded [here](https://huggingface.co/datasets/AndrewTsai0406/Tawan_legal_judgement) on the Hugginface. One specific dataset is present for training: [finalized data](https://huggingface.co/datasets/AndrewTsai0406/Tawan_legal_judgement/resolve/main/processed_all_drug_top_25_act_flash.csv?download=true) is used for training two classifier for prediction.
+The dataset can be downloaded [here](https://huggingface.co/datasets/AndrewTsai0406/Tawan_legal_judgement) on the Hugginface. One specific dataset is present for training: [finalized data](https://huggingface.co/datasets/AndrewTsai0406/Tawan_legal_judgement/resolve/main/processed_all_drug_top_25_act_flash.csv?download=true), which should be put under a **'./data'** directory, is used for training two classifier for prediction.
 
 ### Training & saving the models
 We are in a context of multi-label classification problem, with 25 predicted classes being the legal articles violated by the defendant and a multi-class classification problem for the prediction of the length of the imprisonment. All features are categorical.
 
 Five models have been tested with a tuning of their hyperparameters using the [Lighting Flash](https://lightning-flash.readthedocs.io/en/stable/quickstart.html) library.
 
-All these steps are described in details in the ```train_flash.ipynb```. Please see in the sections below how to run the notebook.
+All these steps are described in much details in the ```train_flash.ipynb```.
 
 To run the training script and save the mdoels, use the one script inside  `train.py` with the command:
 
@@ -48,7 +48,7 @@ The final models will be saved in the `./models` directory.
 
 
 
-## Where to find the files for Datacamp project ML evaluation 
+## Where to find the files for Datacamp project ML evaluation
 -  **Exploratory Data Analysis**  
     The characteristics of the judgement that are used to predict the judgement are explored in the exploratory data analysis (EDA) part of the notebook. I ran one notebook to do the analysis. A copy of it is in the [repository](notebooks/EDA.ipynb).
 - **Training**
@@ -67,4 +67,5 @@ The final models will be saved in the `./models` directory.
     *Example screenshot of the Gradio interface:*
     ![Alt text](./law_prediction_gradio_space/gradio.png)
     The predict function is also deployed on [Hugginface Space](https://huggingface.co/spaces/AndrewTsai0406/law_prediction_gradio) with Gradio. This end point will remain available until the end of the evaluation period.
+    
    => ***[Gradio Interface](https://huggingface.co/spaces/AndrewTsai0406/law_prediction_gradio)***

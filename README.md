@@ -10,7 +10,7 @@ Starting from a Taiwanese legal judgement dataset that targets specifically **dr
 2. predict the length of the imprisonment
 
 *Example screenshot of the Gradio interface:*
-![Alt text](./law_prediction_gradio_space/gradio.png)
+![Alt text](./law-prediction-gradio-space/gradio.png)
 The predict function is deployed on [Hugginface Space](https://huggingface.co/spaces/AndrewTsai0406/law_prediction_gradio) with Gradio. This end point will remain available until the end of the evaluation period.
 
 ## ***[Demo: Click to go to the Gradio interface](https://huggingface.co/spaces/AndrewTsai0406/law_prediction_gradio)***
